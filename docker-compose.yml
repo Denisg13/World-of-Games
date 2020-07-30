@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    wog_mainScores_test:
+        build: .
+        ports:
+            - "5000:5000"
+        image: parazit13/WorldOfGames
